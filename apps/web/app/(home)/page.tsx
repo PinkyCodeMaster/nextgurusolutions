@@ -4,9 +4,9 @@ import type { Metadata } from 'next';
 import { Cases } from './components/cases';
 import { CTA } from './components/cta';
 import { FAQ } from './components/faq';
-import { Features } from './components/features';
+import Features from './components/features';
 import { Hero } from './components/hero';
-import { Stats } from './components/stats';
+import Stats from './components/stats';
 import { Testimonials } from './components/testimonials';
 
 const meta = {

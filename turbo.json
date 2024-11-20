@@ -24,6 +24,9 @@
         "SVIX_TOKEN"
       ]
     },
+    "email#build": {
+      "outputs": ["/apps/email/.react-email"]
+    },
     "test": {
       "dependsOn": ["^test"]
     },
