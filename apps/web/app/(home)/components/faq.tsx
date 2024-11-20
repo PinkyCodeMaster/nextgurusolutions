@@ -80,7 +80,10 @@ export const FAQ = () => (
         </div>
         <Accordion type="single" collapsible className="w-full">
           {faqItems.map((item, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
+            <AccordionItem
+              key={`faq-${item.question.replace(/\s+/g, '-').toLowerCase()}`}
+              value={`item-${index}`}
+            >
               <AccordionTrigger className="text-left">
                 {item.question}
               </AccordionTrigger>

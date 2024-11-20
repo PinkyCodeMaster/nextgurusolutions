@@ -11,7 +11,7 @@ export const CTA = () => (
           <h3 className="bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-4xl text-transparent tracking-tight md:text-5xl lg:text-6xl">
             Empower Your E-Commerce Journey
           </h3>
-          <p className="max-w-2xl text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed">
             Experience the power of tailored e-commerce solutions. From custom
             storefronts to robust backend systems, NetGuru Solutions is your
             partner in building a scalable, future-ready online business.
